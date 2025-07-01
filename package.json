@@ -1,0 +1,10 @@
+{
+  "name": "com.hw.field_displayname",
+  "version": "1.0.0",
+  "displayName": "Field DisplayName",
+  "description": "\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u30e9\u30d9\u30eb\u306b\u4efb\u610f\u306e\u6587\u5b57\u5217\u3092\u6307\u5b9a\u3059\u308b\u5c5e\u6027\u3092\u8ffd\u52a0\u3059\u308b\n\nAdd an attribute that specifies any text to the label of the field.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Wataame(HWataame)"
+  }
+}
