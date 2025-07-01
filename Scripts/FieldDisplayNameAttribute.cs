@@ -39,7 +39,11 @@ namespace HW.FieldDisplayName
         /// フィールドの表示名を置き換える
         /// </summary>
         /// <param name="displayName">フィールドの表示名</param>
+#if UNITY_6000_0_OR_NEWER
         public FieldDisplayNameAttribute(string displayName) : base(applyToCollection: true)
+#else
+        public FieldDisplayNameAttribute(string displayName)
+#endif
         {
             // 表示名の文字列を設定する
             this.displayName = displayName;
